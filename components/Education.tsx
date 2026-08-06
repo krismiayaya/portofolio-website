@@ -1,0 +1,2 @@
+import { education } from "@/data/content";
+export function Education() { return <section className="border-y border-ink/5 bg-slate-50/60"><div className="section grid gap-7 md:grid-cols-[1fr_2fr]"><div><p className="eyebrow">05 — Education</p><h2 className="section-title">Technical roots.</h2></div><div><h3 className="text-xl font-semibold text-ink">{education.degree}</h3><p className="mt-2 text-ink/70">{education.school} · {education.period}</p><p className="mt-4 font-medium text-teal">{education.detail}</p></div></div></section>; }

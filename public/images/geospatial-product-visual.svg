@@ -1,0 +1,41 @@
+<svg width="900" height="760" viewBox="0 0 900 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="surface" x1="78" y1="60" x2="796" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF8F7"/><stop offset="1" stop-color="#CDEDEC"/>
+    </linearGradient>
+    <linearGradient id="line" x1="130" y1="600" x2="774" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#087E8B" stop-opacity=".16"/><stop offset=".48" stop-color="#087E8B"/><stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#102A43" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="900" height="760" rx="38" fill="#F7FBFB"/>
+  <path d="M0 623C122 559 169 640 288 573C387 517 421 389 520 361C642 327 691 452 900 321V760H0V623Z" fill="url(#surface)"/>
+  <g opacity=".7" stroke="#087E8B" stroke-width="1.2">
+    <path d="M-30 574C109 511 184 591 280 525C373 461 423 371 504 347C624 312 692 407 925 270"/>
+    <path d="M-40 616C84 558 165 638 290 561C392 498 422 409 525 380C636 348 708 446 923 324"/>
+    <path d="M-33 660C97 601 189 675 303 600C406 532 445 456 545 424C656 388 713 488 910 385"/>
+    <path d="M11 700C127 644 213 700 330 637C440 578 488 510 574 479C680 442 742 526 903 444"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="104" y="99" width="509" height="321" rx="24" fill="#102A43"/>
+    <rect x="130" y="128" width="230" height="16" rx="8" fill="#8CE0DC"/>
+    <rect x="130" y="157" width="145" height="9" rx="4.5" fill="white" fill-opacity=".42"/>
+    <path d="M152 340C201 285 242 313 283 266C318 226 349 287 394 235C441 180 471 235 512 198C549 164 565 165 586 149" stroke="#8CE0DC" stroke-width="5" stroke-linecap="round"/>
+    <path d="M152 340C201 285 242 313 283 266C318 226 349 287 394 235C441 180 471 235 512 198C549 164 565 165 586 149V361H152V340Z" fill="url(#line)" fill-opacity=".24"/>
+    <g fill="#8CE0DC"><circle cx="152" cy="340" r="7"/><circle cx="283" cy="266" r="7"/><circle cx="394" cy="235" r="7"/><circle cx="512" cy="198" r="7"/><circle cx="586" cy="149" r="7"/></g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="530" y="354" width="240" height="194" rx="22" fill="white"/>
+    <circle cx="574" cy="402" r="21" fill="#E1F5F3"/><path d="M566 402L572 408L583 395" stroke="#087E8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="610" y="386" width="119" height="10" rx="5" fill="#102A43"/><rect x="610" y="408" width="82" height="7" rx="3.5" fill="#102A43" fill-opacity=".3"/>
+    <rect x="558" y="458" width="182" height="12" rx="6" fill="#EAF8F7"/><rect x="558" y="484" width="147" height="12" rx="6" fill="#EAF8F7"/><rect x="558" y="510" width="165" height="12" rx="6" fill="#EAF8F7"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="239" cy="535" r="62" fill="#087E8B"/>
+    <path d="M239 498C224 498 212 510 212 525C212 547 239 570 239 570C239 570 266 547 266 525C266 510 254 498 239 498Z" fill="white"/>
+    <circle cx="239" cy="525" r="8" fill="#087E8B"/>
+  </g>
+  <path d="M239 535C318 530 382 503 466 440" stroke="#087E8B" stroke-width="2" stroke-dasharray="7 8"/>
+  <circle cx="469" cy="438" r="8" fill="#087E8B"/><circle cx="469" cy="438" r="16" stroke="#087E8B" stroke-opacity=".22" stroke-width="7"/>
+  <text x="104" y="680" fill="#102A43" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">FROM FIELD SIGNALS TO PRODUCT DECISIONS</text>
+</svg>

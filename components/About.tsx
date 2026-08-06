@@ -1,0 +1,2 @@
+import { about } from "@/data/content";
+export function About() { return <section id="about" className="border-y border-ink/5 bg-slate-50/60"><div className="section grid gap-8 md:grid-cols-[1fr_2fr]"><div><p className="eyebrow">01 — About</p><h2 className="section-title">Grounded in people and possibility.</h2></div><p className="max-w-3xl text-lg leading-8 text-ink/70">{about}</p></div></section>; }
