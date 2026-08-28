@@ -4,16 +4,23 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { @apply bg-white text-ink antialiased; }
+  body { @apply overflow-x-hidden bg-white text-ink antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100; }
   ::selection { @apply bg-teal/20 text-ink; }
 }
 
 @layer components {
-  .section { @apply mx-auto max-w-6xl px-6 py-20 sm:px-8 md:py-28; }
+  .section { @apply mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20 lg:py-28; }
   .eyebrow { @apply mb-4 text-xs font-bold uppercase tracking-[0.18em] text-teal; }
-  .section-title { @apply text-3xl font-semibold tracking-tight text-ink sm:text-4xl; }
+  .section-title { @apply text-3xl font-semibold tracking-tight text-ink dark:text-white sm:text-4xl; }
   .reveal { animation: reveal 700ms cubic-bezier(.22,1,.36,1) both; }
   .reveal-delay { animation: reveal 700ms 140ms cubic-bezier(.22,1,.36,1) both; }
+  .gallery-scroll { scrollbar-width: thin; scrollbar-color: rgba(8,126,139,.55) rgba(16,42,67,.08); }
+  .gallery-scroll::-webkit-scrollbar { height: 7px; }
+  .gallery-scroll::-webkit-scrollbar-track { @apply rounded-full bg-ink/5; }
+  .gallery-scroll::-webkit-scrollbar-thumb { @apply rounded-full bg-teal/50; }
+  .gallery-scroll::-webkit-scrollbar-thumb:hover { @apply bg-teal; }
+  .product-blue-ui { filter: hue-rotate(48deg) saturate(1.08); }
+  .portrait-cutout { filter: drop-shadow(0 16px 20px rgba(0, 0, 0, .28)); }
 }
 
 @keyframes reveal { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
